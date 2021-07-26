@@ -6,6 +6,6 @@
 . MVc Architecture <br>
 . SQLite Database <br>
 . Recycler View <br>
-. Bottom Navigation <br>
+. Navigation Drawer<br>
 
 <h3>This project is open to contribution and more improvements Feel free to support</h3>
