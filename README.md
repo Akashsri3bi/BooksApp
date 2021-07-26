@@ -1,4 +1,4 @@
-# Movies_App_
+# Bookish
 <h1>Book Reading application from android studio</h1>
 
 <h2>Built on </h2>
