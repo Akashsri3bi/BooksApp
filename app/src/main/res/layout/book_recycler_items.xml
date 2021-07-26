@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="#302E2E"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+
+    <ImageView
+        android:id="@+id/book_image"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/book_title"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-black"
+        android:text="Book Title"
+        android:textColor="#DDD6D6"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@android:drawable/star_off"
+        android:layout_margin="10dp"
+        android:layout_gravity="end|right|bottom"
+        />
+
+</androidx.cardview.widget.CardView>
